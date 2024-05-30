@@ -47,10 +47,7 @@ for(let select of dropdowns){
 
 for(let code in btcList){
 {
-    let newoption= document.createElement("option");
-    newoption.innerHTML=code;
-    newoption.value=code;
-    select.append(newoption);
+  
 }
 }};
 
@@ -276,10 +273,7 @@ for(let select of dropdowns){
 
 for(let code in countryList){
 {
-    let newoption= document.createElement("option");
-    newoption.innerHTML=code;
-    newoption.value=code;
-    select.append(newoption);
+
 }
 select.addEventListener("change",(evt)=>{
     updateflag(evt.target);
@@ -348,10 +342,7 @@ for(let select of dropdowns){
 
 for(let code in btcList){
 {
-    let newoption= document.createElement("option");
-    newoption.innerHTML=code;
-    newoption.value=code;
-    select.append(newoption);
+   
 }
 }};
 
