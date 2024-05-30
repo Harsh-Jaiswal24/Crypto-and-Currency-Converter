@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="btc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bitcoin Converter</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="btcpic"></div><span class="title">Bitcoin Converter</span>
+       <!-- button for switch --> <div class="switchbutton"><div class="btcs">BTC</div><div class="currs">CUR</div></div>
+         </div>
+<div class="bg">
+<div class="hero">
+    <div class="details"><span  class="texts"><span id="c1">Bitcoin </span>is a digital currency that is decentralized and not controlled by banks or governments. It was created in <span id="c2">2008</span> by <span id="c3">Satoshi Nakamoto</span> as a way to send money over the internet. </span>
+    <a href="https://bitcoin.org/en/how-it-works" id="link" target="_blank">Learn More <i class="fa-solid fa-circle-chevron-right"></i></a>
+    </div><!--details-->
+    
+    <div class="card">
+
+        <div class="back"><!--fronttt-->
+        <form>
+           <p class="cc"> Currency Converter</p>
+           <p class="warning">*Select Currency Only*</p>
+     
+<!-- div carddd -->
+            <div class="amount">
+                <p class="choose">Enter Amout</p><input value="1" type="number">
+            </div>
+                <div class="dropdown">
+                    <div class="from">
+                        <p class="choose cfrom">From</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/US/flat/64.png">
+                            <select name="from">
+                                <option value="USD">USD</option>
+                                
+                            </select>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-right-left change"></i>
+                    <div class="to">
+                        <p class="choose cto">To</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/IN/flat/64.png">
+                                <select name="to">
+                                    <option value="INR">INR</option>
+                                  
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mess"></div>
+                    <div class="getvalue"><button>Get Exchange Value</button></div>
+                </form>
+                </div><!--frontttt-->
+
+
+                <div class="front"><!--backkk-->
+                    <form>
+                        <p class="cc"> Bitcoin Converter</p>
+                        <p class="warning">*Select Crypto-Currency Only*</p>
+                  
+             <!-- div carddd -->
+                         <div class="amount2">
+                             <p class="choose">Enter Amout</p><input value="1" type="number">
+                         </div>
+                             <div class="dropdown">
+                                 <div class="frombtc">
+                                     <p class="choose cfrom">From</p>
+                                     <div class="select-container">
+                                                   <!-- <img src="https://flagsapi.com/IN/flat/64.png"> -->
+                                         <select name="from">
+                                             <option value="BTC">BTC</option>
+                                             
+                                         </select>
+                                     </div>
+                                 </div>
+                                 <i class="fa-solid fa-right-left change"></i>
+                                 <div class="tobtc">
+                                     <p class="choose cto">To</p>
+                                     <div class="select-container">
+                                        <!-- <img src="https://flagsapi.com/IN/flat/64.png"> -->
+                                             <select name="to">
+                                                 <option value="ETH">ETH</option>
+                                               
+                                             </select>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="mess2"></div>
+                                 <div class="getvalue2"><button> Exchange Value</button></div>
+                             </form>
+                </div><!--backkk-->
+            </div><!--card-->
+        
+    </div><!--hero-->
+</div><!--bg-->
+
+<script src="main.js"></script>
+
+
+
+
+</body>
+</html>

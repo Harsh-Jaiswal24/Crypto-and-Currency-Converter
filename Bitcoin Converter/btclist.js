@@ -1,0 +1,5 @@
+
+const btclist= {
+    BTC: "Bitcoin",
+     ETH: "Ethereum", USDT: "Tether", USDC: "USD Coin", XRP: "XRP (Ripple)", ADA: "Cardano", DOGE: "Dogecoin", SOL: "Solana", DOT: "Polkadot", MATIC: "Polygon", TRX: "TRON", LTC: "Litecoin", SHIB: "Shiba Inu", AVAX: "Avalanche", DAI: "Dai", LINK: "Chainlink", ATOM: "Cosmos", XLM: "Stellar", UNI: "Uniswap", WBTC: "Wrapped Bitcoin", BCH: "Bitcoin Cash", LEO: "UNUS SED LEO", ALGO: "Algorand", ETC: "Ethereum Classic", VET: "VeChain", ICP: "Internet Computer", FIL: "Filecoin", HBAR: "Hedera Hashgraph", APT: "Aptos", QNT: "Quant", NEAR: "NEAR Protocol", ARB: "Arbitrum", GRT: "The Graph", AAVE: "Aave", STX: "Stacks", FTM: "Fantom", MKR: "Maker", EGLD: "Elrond", XCN: "Chain", SAND: "The Sandbox", IMX: "Immutable", RUNE: "THORChain", KCS: "KuCoin Token", CRV: "Curve DAO Token", LDO: "Lido DAO", SNX: "Synthetix", CAKE: "PancakeSwap", CHZ: "Chiliz", ENJ: "Enjin Coin"
+  };
