@@ -49,7 +49,21 @@ for(let code in btcList){
 {
   
 }
+select.addEventListener("change",(evt)=>{
+    updateflag(evt.target);
+})
 }};
+const updateflag=(element)=>{
+    let currcode=element.value;
+    console.log(currcode);
+    let currcodelc=currcode.toLowerCase();
+    console.log(currcodelc);
+    let newsrc=`https://assets.coincap.io/assets/icons/${currcodelc}@2x.png`;
+    console.log(newsrc);
+   let newimg= element.parentElement.querySelector("img");
+newimg.src=newsrc;
+}
+
 
 
 btn.addEventListener("click", async(evt) => {
@@ -283,6 +297,7 @@ select.addEventListener("change",(evt)=>{
 
 const updateflag=(element)=>{
     let currcode=element.value;
+    console.log(currcode)
     let countrycode=countryList[currcode];
     let newsrc=`https://flagsapi.com/${countrycode}/flat/64.png`;
    let newimg= element.parentElement.querySelector("img");
@@ -342,9 +357,22 @@ for(let select of dropdowns){
 
 for(let code in btcList){
 {
-   
 }
-}};
+    select.addEventListener("change",(evt)=>{
+        updateflag(evt.target);
+    })
+    }};
+    const updateflag=(element)=>{
+        let currcode=element.value;
+        console.log(currcode);
+        let currcodelc=currcode.toLowerCase();
+        console.log(currcodelc);
+        let newsrc=`https://assets.coincap.io/assets/icons/${currcodelc}@2x.png`;
+        console.log(newsrc);
+       let newimg= element.parentElement.querySelector("img");
+    newimg.src=newsrc;
+    }
+    
 
 
 btn.addEventListener("click", async(evt) => {
